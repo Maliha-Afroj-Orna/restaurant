@@ -468,3 +468,17 @@ body{
 	height: 30px;
     border-radius: 5px;
 }
+
+/************ responsive *************/
+
+@media (max-width: 768px){
+	#top-part{
+		display: none;
+	}
+	.header-main .logo h1 a{
+		font-size: 18px;
+		border-radius: 25px;
+		background: #FF2A6B;
+		padding: 5px 10px;
+	}
+	
